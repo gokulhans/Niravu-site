@@ -32,6 +32,11 @@ export default function Navbar() {
               </MDBNavbarItem>
               <MDBNavbarItem active>
                 <MDBNavbarLink >
+                <Link to="/donate" > Donate</Link>
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem active>
+                <MDBNavbarLink >
                 <Link to="/gallary" > Gallary</Link>
                 </MDBNavbarLink>
               </MDBNavbarItem>

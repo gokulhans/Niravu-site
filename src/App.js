@@ -6,6 +6,7 @@ import Gallary from './pages/Gallary/Gallary';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
+import Donate from './pages/Donate/Donate';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/donate" element={<Donate />} />
         <Route path="/gallary" element={<Gallary />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
