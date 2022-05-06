@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import { BrowserRouter } from 'react-router-dom'
 import App from './App';
 // import Appu from './components/test';
 
@@ -9,7 +10,9 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    {/* <Appu /> */}
-  </React.StrictMode>
+    <BrowserRouter>
+      <App />
+      {/* <Appu /> */} 
+    </BrowserRouter>,
+  </React.StrictMode> 
 );
